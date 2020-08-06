@@ -16,6 +16,8 @@ namespace PetInfoApi.DAL
 
         public string LastName { get; set; }
 
+        public bool IsPremiumUser { get; set; }
+
         public Address AddressInfo { get; set; }
 
     }

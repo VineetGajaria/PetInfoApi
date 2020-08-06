@@ -1,1 +1,1 @@
-[{"PetOwnerId":1,"UserLogin":"TestOwner1","Password":"TestOwner1","FirstName":"TestOwner1","LastName":"TestOwner1","AddressInfo":{"Street":"test","City":"Boston","State":"MA"}}]
+[{"PetOwnerId":1,"UserLogin":"TestOwner1","Password":"TestOwner1","FirstName":"TestOwner1","LastName":"TestOwner1","IsPremiumUser":true,"AddressInfo":{"Street":"test","City":"Boston","State":"MA"}}]

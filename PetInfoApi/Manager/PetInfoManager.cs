@@ -18,12 +18,15 @@ namespace PetInfoApi.Manager
 
         public int RegisterPetOwner(PetOwnerDomainModel petOwnerDomainModel)
         {
+            //TODO - Save UserLogin, encrypted password and roles/permissions (IsPremiumUser) within SecurityDB using Security API
+
             PetOwner petOwnerEntity = new PetOwner()
             {
                 FirstName = petOwnerDomainModel.FirstName,
                 LastName = petOwnerDomainModel.LastName,
                 Password = petOwnerDomainModel.Password,
                 UserLogin = petOwnerDomainModel.UserLogin,
+                IsPremiumUser = petOwnerDomainModel.IsPremiumUser,
                 AddressInfo = petOwnerDomainModel.AddressInfo,
 
             };
